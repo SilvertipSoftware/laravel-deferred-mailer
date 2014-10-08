@@ -1,0 +1,22 @@
+{
+    "name": "silvertipsoftware/laravel-deferred-mailer",
+    "description": "Package to defer email construction/processing to the worker side of the email queue. Also provides an object-oriented Mailer pattern.",
+    "keywords": ["mail", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andre Sonnichsen",
+            "email": "andre@silvertipsoftware.com",
+            "homepage": "http://silvertipsoftware.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/mail": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SilvertipSoftware\\DeferredMailer\\": "src/SilvertipSoftware/DeferredMailer/"
+        }
+    }
+}
